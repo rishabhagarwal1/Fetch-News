@@ -7,7 +7,7 @@
 # Name of the recipe to fetch. You can run:
 #     ebook-convert --list-recipes
 # to look for the correct name. Do not forget the .recipe suffix
-RECIPE="La Jornada (Mexico).recipe"
+RECIPE="indian_express.recipe"
 OUTDIR="$HOME/news"
 
 # Select your output profile. See http://manual.calibre-ebook.com/cli/ebook-convert-14.html
@@ -26,11 +26,11 @@ PASSWD="password"
 FROM="username@gmail.com"
 
 # A prefix for the emails' subject. The date will be appended to it.
-SUBJECTPREFIX="News: La Jornada"
+SUBJECTPREFIX="News: Indian Express"
 # A prefix for the emails' content. The date will be appended to it.
 CONTENTPREFIX="Attached is the your periodical downloaded by calibre"
 # A prefix for generate file. The date will be appended to it.
-OUTPUTPREFIX="la_jornada_"
+OUTPUTPREFIX="Indian Express"
 #
 ######################## End Customization Section #############################
 
